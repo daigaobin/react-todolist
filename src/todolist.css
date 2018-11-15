@@ -1,0 +1,25 @@
+.star-enter {
+    opacity: 0;
+}
+
+.star-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.star-enter-done {
+    opacity: 1;
+}
+
+.star-exit {
+    opacity: 1;
+}
+
+.star-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.star-exit-done {
+    opacity: 0;
+}
